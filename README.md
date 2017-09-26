@@ -9,7 +9,7 @@ I made it while reading a book. See [SurviveJS - React](http://survivejs.com/rea
 3. Surf to the port shown at terminal.
 4. Start modifying the code. The browser should pick up the changes.
 
-Or you can watch [demo](https://niko42na.github.io/Kanban-NoteLane)
+Or you can watch [demo](https://niko42na.github.io/Kanban-NoteLane/)
 
 ## Advanced Commands
 
