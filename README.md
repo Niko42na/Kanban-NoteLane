@@ -1,6 +1,6 @@
-# react-boilerplate - Boilerplate for "SurviveJS - React"
+# "React Flux Kanban project"
 
-See [SurviveJS - React](http://survivejs.com/react/introduction/) for the book.
+I made it while reading a book. See [SurviveJS - React](http://survivejs.com/react/introduction/) for the book.
 
 ## Getting Started
 
@@ -9,13 +9,15 @@ See [SurviveJS - React](http://survivejs.com/react/introduction/) for the book.
 3. Surf to the port shown at terminal.
 4. Start modifying the code. The browser should pick up the changes.
 
+Or you can watch [demo](https://niko42na.github.io/Kanban-NoteLane)
+
 ## Advanced Commands
 
-Beyond development, the boilerplate supports other tasks listed below:
+Beyond development, this project supports other tasks listed below:
 
-* `npm run build` - Generates a production build below `build/`. See the [Building with Webpack](http://survivejs.com/webpack/building-with-webpack/) part for more.
+* `npm run build` - Generates a production build below `build/`.
 * `npm run deploy` - Deploys the contents of the `build/` directory below the **gh-pages** branch.
 * `npm run test` - Runs `tests/` through Karma/Phantom/Mocha once.
 * `npm run test:tdd` - Runs `tests/` in a TDD mode (watches for changes and rebuilds).
 * `npm run test:lint` - Runs code through ESLint to spot code quality issues.
-* `npm run stats` - Generates Webpack build statistics. See the [Analyzing Build Statistics](http://survivejs.com/webpack/building-with-webpack/analyzing-build-statistics/) chapter.
+* `npm run stats` - Generates Webpack build statistics. 
