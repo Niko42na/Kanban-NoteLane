@@ -11,7 +11,7 @@ body {
 .notes {
   margin: 0.5em;
   padding-left: 0;
-  max-width: 10em;
+  max-width: 20em;
   list-style: none;
 }
 
@@ -58,7 +58,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 0.5em;
 
-  min-width: 10em;
+  min-width: 20em;
   vertical-align: top;
 }
 
@@ -97,9 +97,16 @@ body {
 
 .add-lane, .lane-add-note button {
   cursor: pointer;
-
   background-color: #fdfdfd;
   border: 1px solid #ccc;
+}
+@media all and (max-device-width: 500px) {
+  .add-lane, .lane-add-note button {
+    height: 5em;
+    width: 5em;
+    font-size: 1em;
+    padding: 0;
+  }
 }
 
 .lane-delete button {
